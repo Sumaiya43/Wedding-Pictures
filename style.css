@@ -45,3 +45,23 @@ body{
 }
 
 
+@media only screen and (min-width: 1200px) {
+    .gallarys {
+        height: 800px !important;
+        width: auto !important;
+    }
+}
+
+/* @media only screen and (min-width: 1000px) {
+    .gallarys {
+        height: 700px !important;
+        width: auto !important;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .gallarys {
+        height: 500px !important;
+        width: auto !important;
+    }
+} */
