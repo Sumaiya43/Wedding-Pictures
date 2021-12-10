@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'Fuzzy Bubbles', cursive;
+}
+
+body{
+    background-color: rgb(126, 118, 118) !important;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.bedna img{
+    filter: brightness(0.5) grayscale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.bedna:hover img{
+   filter: none;
+   box-shadow: 0 15px 30px rgb(196, 178, 77);
+   transform: scale(1.10);
+}
+
+.saya{
+    box-shadow: 0 15px 30px rgba(59, 57, 57, 0.692);
+}
+
+.card-body{
+    display: none;
+}
+
+.card:hover{
+    transform: scale(90%);
+    transition: transform 1000ms ease;
+    background-color: white !important; 
+}
+
+.card:hover .card-body{
+    display: block !important; 
+    transition-delay: 0.3s;
+    transition: 800ms;
+}
+
+
